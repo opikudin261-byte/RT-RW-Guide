@@ -222,6 +222,22 @@ avg-rtt=1ms
 
 ---
 
+# contoh jika kita mau mengecek apakah whatsap sedanh gangguan
+
+maka lakukan perintan ini=
+
+```mikrotik
+:put [:resolve whatsapp.com]
+:put [:resolve whatsapp.net]
+:put [:resolve web.whatsapp.com]
+```
+setelah muncul IP dari ketiga domain tersebut lakukan tes ping dari ketiga IP yang muncul
+
+```mikrotik
+/ping 57.144.101.32 count=10
+/ping 57.144.9.32 count=10
+```
+
 # 7. Ping Internet
 
 Gunakan beberapa tujuan, jangan hanya satu.
