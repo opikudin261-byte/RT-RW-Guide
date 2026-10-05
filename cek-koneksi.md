@@ -222,7 +222,7 @@ avg-rtt=1ms
 
 ---
 
-# contoh jika kita mau mengecek apakah whatsap sedanh gangguan
+# contoh jika kita mau mengecek apakah whatsap sedang gangguan
 
 maka lakukan perintan ini=
 
